@@ -1,0 +1,22 @@
+{
+  "name": "testrepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entrypointFile.js",
+  "scripts": {
+    "test": "node node_modules/webpack/bin/webpack"
+  },
+  "author": "Jan",
+  "license": "ISC",
+  "dependencies": {
+    "dedent-js": "^1.0.1",
+    "webpack": "^5.64.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.4.2",
+    "jest": "^27.4.3",
+    "webpack-cli": "^4.9.1"
+  }
+}
